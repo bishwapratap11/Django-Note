@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nve(a)x4j&hdq5$d56%*_0l09vkz#bl&f1yxk)f_fuikw!hygl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://dammari-note.herokuapp.com/']
+ALLOWED_HOSTS = ['dammari-note.herokuapp.com']
 
 
 # Application definition
