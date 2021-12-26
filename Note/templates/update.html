@@ -290,8 +290,8 @@
     var id = '{{id}}';
     var list = document.querySelector('#note-area');
     var save = document.querySelector('#save-note');
-    var url = `http://127.0.0.1:8000/api/update/${id}/`;
-    var url1 = `http://127.0.0.1:8000/api/delete/${id}/`;
+    var url = `https://dammari-note.herokuapp.com/api/update/${id}/`;
+    var url1 = `https://dammari-note.herokuapp.com/api/delete/${id}/`;
     console.log(url);
     save.onclick = function(){
         console.log(list.value);

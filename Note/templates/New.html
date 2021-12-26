@@ -290,7 +290,7 @@
 
     var list = document.querySelector('#note-area');
     var save = document.querySelector('#save-note');
-    var url = 'http://127.0.0.1:8000/api/create/';
+    var url = 'https://dammari-note.herokuapp.com/api/create/';
     save.onclick = function(){
         if (list.value.length <= 0) {
             location.href = "{% url 'index' %}";  
